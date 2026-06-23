@@ -1,0 +1,17 @@
+keiran_rowell:
+  name   : "Keiran Rowell"
+  avatar : "/assets/images/keiran_rowelll.png"
+  bio    : "Keiran Rowell is a Computational Research Scientist @ Structural Biology Facility, UNSW"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/keiran-rowell-unsw"
+
+nathan_glades:
+  name   : "Nathan Glades"
+  avatar : "/assets/images/keiran_rowelll.png"
+  bio    : "Keiran Rowell is a Computational Systems Officer @ Structural Biology Facility, UNSW"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/keiran-rowell-unsw"

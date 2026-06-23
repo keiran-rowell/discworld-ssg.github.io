@@ -1,9 +1,11 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Laws"
+    url: /laws/
+  - title: "Codes"
+    url: /codes/
+  - title: "Field Guide"
+    url: /field-guide/
+  - title: "News"
+    url: /news/
   - title: "About"
     url: /about/
