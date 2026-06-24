@@ -65,9 +65,10 @@ If there’s a program you want, walk down the list in order of preference in ho
       However, the `Installation` section actually recommends using a package manger
 
       ```java
-      # Create and activate conda environment
+      # Create an activate conda environment
       (base) $ conda create --name cryodrgn python=3.12
-      (cryodrgn) $ conda activate cryodrgn
+      (base) $ conda activate cryodrgn
+      (cryodrgn) $ 
 
       # install cryodrgn
       (cryodrgn) $ pip install cryodrgn
