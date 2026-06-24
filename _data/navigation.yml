@@ -24,7 +24,7 @@ field-guide-nav:
         - title: "Greetings"
           url: /field-guide/01-greetings
         - title: "Field Guide"
-          url: /field-guide/02-field-guide
+          url: /field-guide/02-quick-guide
 
 how-to-nav:
     - title: "Technical How Tos"
