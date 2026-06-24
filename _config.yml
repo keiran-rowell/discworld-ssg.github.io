@@ -80,6 +80,9 @@ collections:
   field-guide:
     output: true
     permalink: /:collection/:path/
+  how-to:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -111,7 +114,7 @@ defaults:
       sidebar:
         nav: "field-guide-nav"
   - scope:
-      path: ""
+      path: "_how-to"
       type: how-to 
     values:
       layout: single
