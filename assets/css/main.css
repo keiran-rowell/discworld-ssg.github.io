@@ -1,0 +1,59 @@
+---
+# Two lines of triple dashes at the very top are required for Jekyll to compile SCSS!
+---
+
+// 1. Import Google Fonts (Playfair Display and Cinzel)
+@import url('https://googleapis.com');
+
+// 2. Load Minimal Mistakes Core Pipeline
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; 
+@import "minimal-mistakes"; 
+
+// 3. Custom Parchment Blockquote Stylings
+.parchment-quote {
+  background-color: #fcf8f2;        
+  border-left: 4px solid #b58900;   
+  border-right: 1px solid #ebdcb9;  
+  border-top: 1px solid #ebdcb9;
+  border-bottom: 1px solid #ebdcb9;
+  border-radius: 4px;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+  box-shadow: inset 0 0 10px rgba(181, 137, 0, 0.05), 2px 2px 5px rgba(0,0,0,0.03);
+  position: relative;
+
+  &::before {
+    content: "“";
+    font-size: 4rem;
+    font-family: "Georgia", serif;
+    color: rgba(181, 137, 0, 0.15); 
+    position: absolute;
+    top: -1rem;
+    left: 0.5rem;
+    line-height: 1;
+  }
+
+  // Target paragraphs inside the blockquote to use Playfair Display
+  p {
+    font-family: "Playfair Display", Georgia, serif !important;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: #5c4033 !important;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+  }
+
+  // Custom signature design utilizing Cinzel 
+  .guide-signature {
+    display: block;
+    font-family: "Cinzel", serif !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #b58900 !important;
+    text-align: right;
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+    font-style: normal; /* Removes the generic blockquote italic layout */
+  }
+}

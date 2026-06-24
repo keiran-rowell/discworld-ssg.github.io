@@ -66,10 +66,18 @@ author:
       url: "https://github.com/unsw-edu-au"
 
 footer:
-#  links:
-#    - label: "GitHub"
-#      icon: "fab fa-fw fa-github"
-#      url: "https://github.com/unsw-edu-au"
+  links:
+    - label: "DOI (please cite)"
+      icon: "fa-solid fa-book-open"
+      url: "https://doi.org/10.26190/4KQF-M552"
+    - label: "UNSW Research Infrastructure"
+      icon: "fa-solid fa-building-columns"
+      url: "https://www.unsw.edu.au/research/facilities-and-infrastructure"
+
+collections:
+  field-guide:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -90,6 +98,18 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: ""
+      type: field-guide 
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "field-guide-nav"
+  
+
 
 category_archive:
   type: liquid

@@ -4,8 +4,17 @@ main:
   - title: "Codes"
     url: /codes/
   - title: "Field Guide"
-    url: /field-guide/
+    url: /field-guide/00-notices
   - title: "News"
     url: /news/
   - title: "About"
     url: /about/
+
+field-guide-nav:
+    - title: "Discworld Field Guide"
+      children: 
+        - title: "NOTICES"
+          url: /field-guide/00-notices
+        - title: "Greetings"
+          url: /field-guide/01-greetings
+
