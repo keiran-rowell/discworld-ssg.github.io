@@ -259,7 +259,7 @@ Put the resources you need as `--flags` after `sinteractive`
 
 ---
 
-### 🤕 **--- What to do when things go wrong**
+### What to do when things go wrong 🤕 
 {: data-toc="🤕 Emergencies"}
 
 > 1. **Notice within 2 weeks**

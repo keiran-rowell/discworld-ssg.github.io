@@ -5,7 +5,6 @@ classes: wide
 author: keiran_rowell
 toc: false
 ---
-
 <!-- Embed Custom Fonts & Styles directly on this page -->
 <link rel="preconnect" href="https://googleapis.com">
 <link rel="preconnect" href="https://gstatic.com" crossorigin>
@@ -59,9 +58,7 @@ toc: false
   font-style: normal;
 }
 </style>
-
-**Hello from Discworld!** ❄️🔬 → 💻 → 🐢 🌌
-
+## **Hello from Discworld!** ❄️🔬 → 💻 → 🐢 🌌
 > My days here have been as rewarding as they are troublesome, and often confusing. I have been assembling my notes on CryoEM computing for some time now.   
 >   
 > My intent is to create a guide for anyone whose research path may lead them into high performance computing.   

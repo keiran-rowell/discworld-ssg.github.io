@@ -8,7 +8,7 @@ main:
   - title: "FAQ"
     url: /faq
   - title: "News"
-    url: /news/
+    url: /
   - title: "About"
     url: /about/
 
