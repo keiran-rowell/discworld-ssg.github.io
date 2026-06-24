@@ -9,7 +9,7 @@ keiran_rowell:
 
 nathan_glades:
   name   : "Nathan Glades"
-  avatar : "/assets/images/keiran_rowelll.png"
+  avatar : "/assets/images/nathan_glades.jpg"
   bio    : "Computational Systems Officer @ Structural Biology Facility, UNSW"
   links:
     - label: "GitHub"
