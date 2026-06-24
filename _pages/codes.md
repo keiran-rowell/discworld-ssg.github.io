@@ -26,7 +26,7 @@ author: keiran_rowell
 ⚠️  Check `module avail sbgrid` to see if an available tool run, or the error is from the framework used on top of the tool. 
 {: .notice--danger} 
 
--  `Scipion` framemwork
+-  `Scipion` framework
 
  📧 email [d.luque@unsw.edu.au](mailto:d.luque@unsw.edu.au) for expertise support, and contact with developers for difficult debugging
  {: .notice--warning}
